@@ -1,0 +1,56 @@
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 30vh;
+  margin: 15% auto; 
+  padding: 20px;
+  border-radius: 10px;
+  background-color: hsl(217, 19%, 24%);
+}
+
+h1 {
+  font-size: 2em;
+  color: green;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 28px;
+  color: white;
+  margin-bottom: 80px;
+}
+
+button {
+  color: rgb(19, 13, 13);
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+button:before {
+  font-size: 3em;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+}
+
+.dice {
+  background-color: green;
+  border-radius: 50%;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .home {
+    width: 90%;
+    margin: 15% auto;
+  }
+}
